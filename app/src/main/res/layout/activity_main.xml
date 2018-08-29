@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Button_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name"/>
+
+    <ImageButton
+        android:id="@+id/Image_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_alarm"/>
+
+    <Button
+        android:id="@+id/Image_ButtonTextLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm"
+        android:drawableStart="@drawable/ic_action_alarm"
+        android:drawableLeft="@drawable/ic_action_alarm" />
+
+    <Button
+        android:id="@+id/Image_ButtonTextRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm"
+        android:drawableEnd="@drawable/ic_action_alarm"
+        android:drawableRight="@drawable/ic_action_alarm" />
+
+
+</LinearLayout>
